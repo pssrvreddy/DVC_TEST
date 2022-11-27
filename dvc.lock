@@ -31,7 +31,7 @@ stages:
     params:
       params.yaml:
         featurize.max_features: 100
-        featurize.ngrams: 4
+        featurize.ngrams: 3
     outs:
     - path: data/features
       md5: 46c497e2f7b81fc778912dbcee53401d.dir
